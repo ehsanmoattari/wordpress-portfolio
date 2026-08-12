@@ -53,7 +53,7 @@ wordpress-portfolio/
 ├── content.xml
 └── media/
 
----
+```
 
 ## 🚀 How to Use This Pipeline
 
