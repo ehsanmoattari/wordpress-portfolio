@@ -31,7 +31,27 @@ The goal is to **eliminate the gap between design and a live website**. With a s
 
 ## 📂 Repository Structure
 
-
+```
+wordpress-portfolio/
+├── blueprint.json # Master Blueprint (the core of the pipeline)
+├── README.md # This file
+├── index.html # Optional landing page for your portfolio
+├── themes/ # Theme ZIP files (local installation for speed)
+│ └── kadence.zip
+├── plugins/ # Plugin ZIP files (local installation)
+│ ├── kadence-blocks.zip
+│ ├── advanced-custom-fields.zip
+│ └── bookingpress.zip
+└── my-portfolio/ # Dedicated projects for each client demo
+├── sample-content.xml # Default WXR content (services, pages, etc.)
+├── salon-dubai/ # Example project folder
+│ ├── content.xml # Custom content for this project
+│ └── media/ # Project-specific images
+│ ├── logo.png
+│ └── gallery/
+└── salon-london/ # Another example project
+├── content.xml
+└── media/
 
 ---
 
